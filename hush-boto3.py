@@ -9,6 +9,7 @@ import boto3
 # s3client.create_bucket(Bucket=bucket_name)
 
 # HIDE CREDENTIALS install awscli then configure
+# TEMPORARY USER
 s3 = boto3.resource('s3',aws_access_key_id='AKIAVMCU5DXBJOQGMTEO', aws_secret_access_key='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')
 
 # print my buckets
